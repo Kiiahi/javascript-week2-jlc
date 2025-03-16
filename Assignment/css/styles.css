@@ -1,5 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: fantasy, arial;
+    text-align: center;
 }
 
 header {
@@ -7,11 +8,11 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: #f8f8f8;
+    background-color: #b790c0;
 }
 
 .logo {
-    width: 100px; 
+    width: 130px; 
 }
 
 .nav-links {
@@ -38,11 +39,73 @@ header {
     color: #fff;
 }
 
-.active {
+.banner {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f3f5;
+    size-adjust: 100%;
+}
+
+.banner-image {
+    width: 100%;
+    max-width: 600px; 
+    height: auto;
+}
+
+.tagline {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+#welcome-message {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+#form-response {
+    text-align: center;
+    margin: 20px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
     background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.active {
+    background-color: #e8e3e3;
     color: #fff;
 }
 
 .active a {
-    color:white;
+    color: white;
 }
