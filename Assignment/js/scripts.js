@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById('header-placeholder').innerHTML = data;
         });
 
-    // Check if the current page is index.html
+    
     if (window.location.pathname.endsWith('index.html')) {
         // Welcome prompt
         let userName = prompt("Welcome to Cafe Sizzle! What's your name?");
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    // Handle contact form submission
+
     const contactForm = document.getElementById('contact-form');
     if (contactForm) {
         contactForm.addEventListener('submit', function(event) {
