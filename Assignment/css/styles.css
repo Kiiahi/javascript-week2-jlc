@@ -75,10 +75,15 @@ form {
     gap: 10px;
     max-width: 400px;
     margin: 20px auto;
+    padding: 30px;
+    border: 1px solid #b790c0; 
+    border-radius: 5px;
+    background-color :#b790c0; 
+    color: white;
 }
 
 label {
-    font-weight: bold;
+    font-weight: thin;
 }
 
 input, textarea {
@@ -97,6 +102,14 @@ button {
     transition: background-color 0.3s;
 }
 
+footer {
+    margin-bottom: auto;
+    padding: 10px;
+    background-color: #b790c0;
+    color: black;
+    text-align: center;
+}
+
 button:hover {
     background-color: #555;
 }
@@ -108,4 +121,11 @@ button:hover {
 
 .active a {
     color: white;
+}
+
+.owner-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px;
 }
